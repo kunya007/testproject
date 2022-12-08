@@ -1,3 +1,90 @@
+body{
+    
+}
 .ALL-IN-ONE{
     background-image: url(bg_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-block: 32px;      
 }
+.paradise h2{
+    color: white;
+    font-size: 69px;
+    margin-block-end: 50px;
+    margin-block-start: 100px;
+    font-weight: 900;
+}
+.paradise p{
+    color: white;
+    margin-bottom: 20px;
+}
+.paradise{
+    width: 100.666667%;
+    margin-inline-start: 7px;
+}
+.button {   
+    background-color: #918b8b;
+    border: none;
+    color: white;
+    padding: 9px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 96px;
+    cursor: pointer;
+    border-radius: 23px;
+}
+.second-section{
+    background-color: #080808 ;
+    color: white;
+}
+.second-section h1{
+    width: 100px;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.section-third{
+    background-color: #080808;
+    color: white;
+}
+.section-third h1{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-block-start: 43px;
+    padding-block-start: 18px;
+}
+.section-third p{
+    text-align:center;
+}
+.text-center a{display: inline-block;
+    min-width: 220px;
+    line-height: 22px;
+    padding: 15px;
+    text-align: center;
+    color: #999;
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    letter-spacing: .075em;
+    border: 0;
+    border-radius: 27px;
+    border-color: white;
+}
+.row-img{
+    box-sizing: border-box;
+  }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.row::after {
+    clear: both;
+    display: table;
+  }
+ .text-center button{
+    
+ }
